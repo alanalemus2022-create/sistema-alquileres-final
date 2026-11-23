@@ -234,13 +234,6 @@ Requisitos: **Python 3.10 o superior**.
 7. `python manage.py runserver`
 8. Abrir **<http://127.0.0.1:8000/>** → la página pide inicio de sesión.
 
-Opcional, útil para la socialización:
-
-```bash
-python manage.py crear_usuarios_demo        # roles y usuarios de la interfaz
-python manage.py cargar_datos_demo          # alquileres con estado vigente/reservado/finalizado
-python manage.py test                        # 13 pruebas del CRUD y de la lógica
-```
 
 El panel del segundo corte sigue disponible en **<http://127.0.0.1:8000/admin/>**.
 
